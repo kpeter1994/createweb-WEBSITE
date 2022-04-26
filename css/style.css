@@ -6,6 +6,7 @@
     --bacground-color: #0E0E0E;
     --text-color: #e6e6e6;
     --gold-color: #B59452;
+    --title-stroke: 1px;
 }
 body{
     font-size: 20px;
@@ -27,5 +28,37 @@ nav li a{
     text-transform: uppercase;
 }
 .logo{
-    height: 50px;
+    height: 70px;
+}
+.gold-border-bottom{
+    border-bottom: 1px solid var(--gold-color);
+}
+.hero-title{
+    font-size: 10rem;
+    text-transform: uppercase;
+    line-height: 100%;
+
+}
+.first-row-on-tittle{
+    display: block;
+    width: 100%;
+    text-align: right;
+    -webkit-text-stroke: var(--title-stroke) #ffffff;
+    color: transparent;
+}
+.first-row-on-tittle span{
+    font-size: 15rem;
+}
+.btn-primary{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#c5a25b, var(--gold-color));
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
 }
