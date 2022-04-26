@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Sarpanch Medium" ;
+    src: url("../font/Sarpanch-Medium.ttf");
+}
+:root {
+    --bacground-color: #0E0E0E;
+    --text-color: #e6e6e6;
+    --gold-color: #B59452;
+}
+body{
+    font-size: 20px;
+    font-family: "Sarpanch Medium", sans-serif;
+    background-color:  var(--bacground-color);
+    color: var(--text-color);
+}
+nav .container{
+    border-bottom: 1px solid var(--gold-color);
+}
+nav li {
+   list-style: none;
+}
+
+nav li a{
+    color: var(--text-color);
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo{
+    height: 50px;
+}
